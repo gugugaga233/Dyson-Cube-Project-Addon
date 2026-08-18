@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dysoncubeproject:block/laser_energy_input_port"
+    }
+  }
+}

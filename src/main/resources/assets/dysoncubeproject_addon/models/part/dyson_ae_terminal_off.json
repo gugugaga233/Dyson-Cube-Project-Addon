@@ -1,0 +1,8 @@
+{
+  "parent": "ae2:part/display_off",
+  "textures": {
+    "lightsBright": "dysoncubeproject_addon:part/dyson_ae_terminal_bright",
+    "lightsMedium": "dysoncubeproject_addon:part/dyson_ae_terminal_medium",
+    "lightsDark": "dysoncubeproject_addon:part/dyson_ae_terminal_dark"
+  }
+}

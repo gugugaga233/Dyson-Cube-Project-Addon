@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blast_furnace"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "P": {
+      "item": "dysoncubeproject:mining_item_output_port"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "W": {
+      "item": "minecraft:water_bucket"
+    }
+  },
+  "pattern": [
+    "DBD",
+    "WPW",
+    "DRD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dysoncubeproject:ore_processing_hub"
+  }
+}

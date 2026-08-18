@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beam": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dysoncubeproject:compressed_beam"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dysoncubeproject:compression/compressed_beam_123_to_124"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_beam"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dysoncubeproject:compression/compressed_beam_123_to_124"
+    ]
+  }
+}

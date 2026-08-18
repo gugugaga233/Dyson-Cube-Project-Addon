@@ -1,0 +1,36 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "ae2:calculation_processor"
+    },
+    "D": {
+      "tag": "c:gems/diamond"
+    },
+    "F": {
+      "item": "dysoncubeproject:mining_fluid_output_port"
+    },
+    "I": {
+      "item": "dysoncubeproject:mining_item_output_port"
+    },
+    "T": {
+      "item": "ae2:terminal"
+    }
+  },
+  "pattern": [
+    "DCD",
+    "ITF",
+    "DCD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dysoncubeproject_addon:dyson_ae_terminal"
+  }
+}

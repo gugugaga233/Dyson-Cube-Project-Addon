@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "GPG",
+    "PIP",
+    "GPG"
+  ],
+  "key": {
+    "G": {"item": "dysoncubeproject:compressed_gold_block"},
+    "P": {"item": "ae2:engineering_processor"},
+    "I": {"item": "ae2:io_port"}
+  },
+  "result": {
+    "id": "dysoncubeproject_addon:dyson_io_port",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dysoncubeproject:block/ore_processing_hub"
+    }
+  }
+}

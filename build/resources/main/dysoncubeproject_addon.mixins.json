@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.gugugaga233.dysoncubeprojectaddon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EMRailEjectorBlockEntityMixin",
+    "RayReceiverBlockEntityMixin"
+  ],
+  "client": [
+    "client.EMRailEjectorScreenMixin",
+    "client.RayReceiverScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

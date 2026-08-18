@@ -1,0 +1,65 @@
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\world\DysonSphereStructure.java:1312:                    net.minecraft.network.chat.Component.literal("⚠ 当前星体不是反物质星体"), true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\world\DysonSphereStructure.java:1321:                    net.minecraft.network.chat.Component.literal("⚛ 已切换至湮灭模式 — 投入材料触发反物质湮灭"), true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\world\DysonSphereStructure.java:1325:                    net.minecraft.network.chat.Component.literal("✓ 已切换至戴森球包裹模式"), true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\world\DysonSphereStructure.java:1359:                    net.minecraft.network.chat.Component.literal("⚠ 当前未处于湮灭模式"), true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\world\DysonSphereStructure.java:1369:                    net.minecraft.network.chat.Component.literal("⚛ 该物品无法用于湮灭"), true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\DysonCubeProject.java:712:                source.sendFailure(Component.literal("控制台执行时必须指定 sphereId。"));
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\DysonCubeProject.java:720:            source.sendFailure(Component.literal("找不到戴森球：" + sphereId));
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\DysonCubeProject.java:724:            source.sendFailure(Component.literal("戴森球 " + sphereId + " 已经设置了下一颗寰宇之心。"));
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:377:        return new StarData("M_TYPE", "红矮星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:384:        return new StarData("K_TYPE", "橙矮星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:391:        return new StarData("G_TYPE", "黄矮星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:398:        return new StarData("F_TYPE", "F型星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:405:        return new StarData("A_TYPE", "A型星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:412:        return new StarData("B_TYPE", "B型星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:419:        return new StarData("O_TYPE", "O型蓝超巨星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:427:        return new StarData("L_DWARF", "L型棕矮星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:434:        return new StarData("T_DWARF", "T型棕矮星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:441:        return new StarData("Y_DWARF", "Y型棕矮星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:449:        return new StarData("WHITE_DWARF", "白矮星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:456:        return new StarData("NEUTRON_STAR", "中子星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:463:        return new StarData("QUARK_STAR", "夸克星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:470:        return new StarData("Q_STAR", "Q星/灰洞", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:477:        return new StarData("ELECTROWEAK_STAR", "电弱星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:484:        return new StarData("BOSON_STAR", "玻色星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:491:        return new StarData("SEYFERT", "塞佛特星系核", 1000, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:497:        return new StarData("BLAZAR", "耀变体", 1000, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:503:        return new StarData("QUASAR", "类星体", 18600, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:510:        return new StarData("RED_SUPERGIANT", "红超巨星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:517:        return new StarData("WOLF_RAYET", "沃尔夫-拉叶星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:524:        return new StarData("HOT_JUPITER", "热木星", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:531:        return new StarData("SUPER_EARTH", "超级地球", r, m, t, 0, false);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:538:        return new StarData("BLUE_STRAGGLER", "蓝离散星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:545:        return new StarData("GRB", "伽马射线暴", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:552:        return new StarData("HYPERNOVA", "极超新星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:559:        return new StarData("STELLAR_BH", "恒星级黑洞", 0, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:565:        return new StarData("SUPERMASSIVE_BH", "超大质量黑洞", 0, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:576:        return new StarData("ANTI_M_TYPE", "反物质红矮星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:583:        return new StarData("ANTI_K_TYPE", "反物质橙矮星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:590:        return new StarData("ANTI_G_TYPE", "反物质黄矮星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:597:        return new StarData("ANTI_F_TYPE", "反物质F型星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:604:        return new StarData("ANTI_A_TYPE", "反物质A型星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:611:        return new StarData("ANTI_B_TYPE", "反物质B型星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:618:        return new StarData("ANTI_O_TYPE", "反物质O型星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:625:        return new StarData("ANTI_L_DWARF", "反物质L型棕矮星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:632:        return new StarData("ANTI_T_DWARF", "反物质T型棕矮星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:639:        return new StarData("ANTI_Y_DWARF", "反物质Y型棕矮星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:646:        return new StarData("ANTI_WHITE_DWARF", "反物质白矮星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:653:        return new StarData("ANTI_NEUTRON_STAR", "反物质中子星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:660:        return new StarData("ANTI_QUARK_STAR", "反物质夸克星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:667:        return new StarData("ANTI_Q_STAR", "反物质Q星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:674:        return new StarData("ANTI_ELECTROWEAK_STAR", "反物质电弱星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:699:        return new StarData("DARK_MATTER", "暗物质星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:710:        return new StarData("PLANCK", "普朗克星", r, m, t, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseRandomizer.java:719:        return new StarData("COSMIC_HEART", "寰宇之心", 0, 0, 0, 0, true);
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseEvents.java:38:            Component awakeMsg = Component.literal("⚠️ 宇宙已觉醒 — 黑洞池已解锁！")
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseEvents.java:44:            Component antiMsg = Component.literal("⚛ 反物质觉醒 — 宇宙镜像已解锁！")
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseEvents.java:54:        Component msg = Component.literal("💥 反物质星体已湮灭！累计获得 ")
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseEvents.java:56:                .append(Component.literal(" 计数 +1，寰宇大道 ×10"));
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseEvents.java:64:        Component msg = Component.literal("⚛ 发现反物质星体！投入材料触发湮灭，或建造戴森球包裹它。")
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\UniverseEvents.java:86:        Component msg = Component.literal("✦ 寰宇之心覆盖完成！请选择你的规则修改奖励 ✦")
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\client\gui\PrimordialQiChoiceScreen.java:48:                Component.literal("🌌 根源共鸣 — 基数 ×10"),
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\client\gui\PrimordialQiChoiceScreen.java:56:                Component.literal("⚖️ 法则刻印 — 规则修改"),
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\client\gui\PrimordialQiChoiceScreen.java:64:                Component.literal("🔮 道脉共鸣 — 输出 ×10"),
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\client\gui\PrimordialQiChoiceScreen.java:86:                        .append(Component.literal(" · 第 " + qiCount + " 层")),
+src/main/java/com/gugugaga233/dysoncubeprojectaddon\overhaul\block\entity\BlackHoleAmplifierBlockEntity.java:83:                Component.literal("视界放大器已修复：" + String.format("%.1f%%", amplifierDamage)),

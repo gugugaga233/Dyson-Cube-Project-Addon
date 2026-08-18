@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dysoncubeproject:beam"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "H": {
+      "item": "dysoncubeproject:dyson_hub"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "DBD",
+    "NHN",
+    "DRD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dysoncubeproject:cosmic_mining_hub"
+  }
+}

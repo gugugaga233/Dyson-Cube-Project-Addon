@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "dysoncubeproject:block/black_hole_amplifier_side",
+    "top": "dysoncubeproject:block/black_hole_amplifier_top",
+    "bottom": "dysoncubeproject:block/black_hole_amplifier_bottom"
+  }
+}

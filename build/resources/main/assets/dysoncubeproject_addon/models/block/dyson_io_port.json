@@ -1,0 +1,11 @@
+{
+  "parent": "ae2:block/io_port",
+  "textures": {
+    "back": "dysoncubeproject_addon:block/dyson_io_port_back_off",
+    "bottom": "dysoncubeproject_addon:block/dyson_io_port_bottom_off",
+    "top": "dysoncubeproject_addon:block/dyson_io_port_top_off",
+    "front": "dysoncubeproject_addon:block/dyson_io_port_front_off",
+    "side": "dysoncubeproject_addon:block/dyson_io_port_side_off",
+    "particle": "dysoncubeproject_addon:block/dyson_io_port_front_off"
+  }
+}

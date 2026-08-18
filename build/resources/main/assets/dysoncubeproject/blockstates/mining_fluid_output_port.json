@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dysoncubeproject:block/mining_fluid_output_port"
+    }
+  }
+}

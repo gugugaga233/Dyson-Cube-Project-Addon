@@ -1,0 +1,7 @@
+{
+  "type": "dysoncubeproject:compression",
+  "category": "misc",
+  "item": "dysoncubeproject:compressed_beam",
+  "base_item": "dysoncubeproject:beam_package",
+  "base_only": true
+}

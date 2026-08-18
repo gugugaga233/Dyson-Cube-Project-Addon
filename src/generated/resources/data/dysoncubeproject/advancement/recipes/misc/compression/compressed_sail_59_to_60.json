@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sail": {
+      "conditions": {
+        "items": [
+          {
+            "items": "dysoncubeproject:compressed_sail"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dysoncubeproject:compression/compressed_sail_59_to_60"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_sail"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dysoncubeproject:compression/compressed_sail_59_to_60"
+    ]
+  }
+}

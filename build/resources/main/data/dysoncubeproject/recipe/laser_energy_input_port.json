@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:comparator"
+    },
+    "G": {
+      "item": "minecraft:tinted_glass"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "RGR",
+    "CNC",
+    "RGR"
+  ],
+  "result": {
+    "count": 1,
+    "id": "dysoncubeproject:laser_energy_input_port"
+  }
+}

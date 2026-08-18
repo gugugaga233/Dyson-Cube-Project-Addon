@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "dysoncubeproject:block/dyson_hub_side",
+    "top": "dysoncubeproject:block/dyson_hub_top",
+    "bottom": "dysoncubeproject:block/dyson_hub_bottom"
+  }
+}

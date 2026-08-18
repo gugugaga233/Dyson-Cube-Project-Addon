@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "dysoncubeproject:block/mining_fluid_output_port_side",
+    "top": "dysoncubeproject:block/mining_fluid_output_port_top",
+    "bottom": "dysoncubeproject:block/mining_fluid_output_port_bottom"
+  }
+}

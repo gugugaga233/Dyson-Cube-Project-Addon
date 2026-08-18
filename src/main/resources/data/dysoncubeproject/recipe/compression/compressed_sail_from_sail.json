@@ -1,0 +1,7 @@
+{
+  "type": "dysoncubeproject:compression",
+  "category": "misc",
+  "item": "dysoncubeproject:compressed_sail",
+  "base_item": "dysoncubeproject:solar_sail_package",
+  "base_only": true
+}

@@ -1,0 +1,7 @@
+{
+  "type": "dysoncubeproject:compression",
+  "category": "misc",
+  "item": "dysoncubeproject:compressed_iron_block",
+  "base_item": "minecraft:iron_block",
+  "base_only": true
+}

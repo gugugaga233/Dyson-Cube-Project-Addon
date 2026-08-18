@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "dysoncubeproject:block/cosmic_mining_hub_side",
+    "top": "dysoncubeproject:block/cosmic_mining_hub_top",
+    "bottom": "dysoncubeproject:block/cosmic_mining_hub_bottom"
+  }
+}

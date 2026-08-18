@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "dysoncubeproject:block/laser_energy_input_port_side",
+    "top": "dysoncubeproject:block/laser_energy_input_port_top",
+    "bottom": "dysoncubeproject:block/laser_energy_input_port_bottom"
+  }
+}

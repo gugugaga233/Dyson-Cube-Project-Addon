@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dysoncubeproject_addon:item/dyson_storage_cell",
+    "layer1": "ae2:item/storage_cell_led"
+  }
+}

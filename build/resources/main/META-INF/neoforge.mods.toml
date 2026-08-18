@@ -1,0 +1,59 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "MIT"
+
+[[mods]]
+modId = "dysoncubeproject_addon"
+version = "1.0.23"
+displayName = "Dyson Cube Project Addon"
+logoFile = "dysoncubeproject_addon.png"
+authors = "Buuz135, gugugaga233"
+description = '''An overhaul addon for Dyson Cube Project with arbitrary-precision energy,
+stellar progression, cosmic mining, ore processing, AE2 integration and the Cosmic Heart.'''
+
+[[mixins]]
+config = "dysoncubeproject_addon.mixins.json"
+
+[[dependencies."dysoncubeproject_addon"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.64,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."dysoncubeproject_addon"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies."dysoncubeproject_addon"]]
+modId = "dysoncubeproject"
+type = "required"
+reason = "This project extends Dyson Cube Project rather than replacing it."
+versionRange = "[1.0.5,2)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."dysoncubeproject_addon"]]
+modId = "titanium"
+type = "required"
+versionRange = "[4.0.45,5)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."dysoncubeproject_addon"]]
+modId = "fluxnetworks"
+type = "required"
+reason = "Arbitrary-precision energy uses the Flux Networks 8.0.0 API."
+versionRange = "[8.0.0,8.1)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies."dysoncubeproject_addon"]]
+modId = "ae2"
+type = "optional"
+versionRange = "[19.2.17,20)"
+ordering = "AFTER"
+side = "BOTH"

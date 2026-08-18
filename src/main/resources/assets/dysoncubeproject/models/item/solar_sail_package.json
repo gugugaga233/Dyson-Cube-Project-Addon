@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dysoncubeproject:item/solar_sail_package"
+  }
+}

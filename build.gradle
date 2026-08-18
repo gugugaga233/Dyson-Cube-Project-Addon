@@ -1,0 +1,97 @@
+plugins {
+    id "java-library"
+    id "idea"
+    id "net.neoforged.moddev" version "2.0.78"
+}
+
+base {
+    archivesName = "dysoncubeproject-addon"
+    group = "com.gugugaga233"
+    version = project.mod_version
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+neoForge {
+    version = project.neoforge_version
+
+    runs {
+        client {
+            client()
+        }
+        server {
+            server()
+        }
+        data {
+            data()
+            programArguments = [
+                    "--mod", "dysoncubeproject_addon",
+                    "--all",
+                    "--output", file("src/generated/resources/").absolutePath,
+                    "--existing", file("src/main/resources/").absolutePath
+            ]
+        }
+    }
+
+    mods {
+        dysoncubeproject_addon {
+            sourceSet sourceSets.main
+        }
+    }
+
+
+}
+
+repositories {
+    mavenCentral()
+    maven { url = "https://maven.neoforged.net/releases" }
+    maven { url = "https://maven.neoforged.net/releases/" }
+    maven { url = "https://maven.neoforged.net/releases" }
+    maven { url = "https://maven.neoforged.net/releases/" }
+    // CurseMaven for Titanium dependency
+    maven {
+        url = "https://cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+    maven {
+        url = "https://api.modrinth.com/maven"
+        metadataSources { artifact() }
+    }
+}
+
+dependencies {
+    // Titanium library (by Buuz135, required for original mod framework)
+    // CurseForge project ID: 287342, file ID for titanium-1.21-4.0.45: 8426819
+    implementation "curse.maven:titanium-287342:8426819"
+
+    // Flux Networks API from the updated local build. The integration is part
+    // of the Dyson energy path and must compile against its AbsoluteInteger API.
+    implementation files("../原mod/dysoncubeproject-1.0.5.jar")
+    implementation files("../libs/fluxnetworks-api-8.0.0.jar")
+
+    // Optional at runtime. AE2-specific classes are only loaded when AE2 is present.
+    compileOnly "maven.modrinth:ae2:19.2.17"
+
+    testImplementation platform("org.junit:junit-bom:5.11.4")
+    testImplementation "org.junit.jupiter:junit-jupiter"
+}
+
+configurations.testImplementation.extendsFrom(configurations.modDevCompileDependencies)
+configurations.testRuntimeOnly.extendsFrom(configurations.modDevRuntimeDependencies)
+
+tasks.named("test", Test).configure {
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = files(sourceSets.test.output, sourceSets.main.output,
+            sourceSets.test.runtimeClasspath, sourceSets.main.compileClasspath)
+}
+
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = "UTF-8"
+    options.compilerArgs << "-Xlint:all,-processing" << "-Xmaxerrs" << "100"
+}
